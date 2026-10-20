@@ -52,13 +52,13 @@ object DataSource {
             R.drawable.faye,
             "Faye",
             "8",
-            "Digging in the garden"
+            "digging in the garden!!!!!"
         ),
         Dog(
             R.drawable.bella,
             "Bella",
             "14",
-            "Chasing sea foam"
+            "chasing sea foam!!!!???"
         )
     )
 }
