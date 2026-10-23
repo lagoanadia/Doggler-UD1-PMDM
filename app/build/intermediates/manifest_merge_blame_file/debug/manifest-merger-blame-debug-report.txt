@@ -1,0 +1,184 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  ~ Copyright (C) 2021 The Android Open Source Project.
+4  ~
+5  ~ Licensed under the Apache License, Version 2.0 (the "License");
+6  ~ you may not use this file except in compliance with the License.
+7  ~ You may obtain a copy of the License at
+8  ~
+9  ~     http://www.apache.org/licenses/LICENSE-2.0
+10  ~
+11  ~ Unless required by applicable law or agreed to in writing, software
+12  ~ distributed under the License is distributed on an "AS IS" BASIS,
+13  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14  ~ See the License for the specific language governing permissions and
+15  ~ limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.dogglers"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="21"
+23-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml
+24        android:targetSdkVersion="32" />
+24-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml
+25
+26    <uses-permission android:name="android.permission.REORDER_TASKS" />
+26-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\nadia\.gradle\caches\transforms-3\7156d730581db6ab6be816663843833b\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:25:5-72
+26-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\nadia\.gradle\caches\transforms-3\7156d730581db6ab6be816663843833b\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:25:22-69
+27
+28    <application
+28-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:20:5-50:19
+29        android:allowBackup="true"
+29-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:21:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.7.0] C:\Users\nadia\.gradle\caches\transforms-3\bc8e6d89ec5f01c9b383224d26ccbb88\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:22:9-43
+33        android:label="@string/app_name"
+33-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:23:9-41
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:24:9-54
+35        android:supportsRtl="true"
+35-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:25:9-35
+36        android:theme="@style/Theme.Dogglers" >
+36-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:26:9-46
+37        <activity android:name="com.example.dogglers.VerticalListActivity" >
+37-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:27:9-31:20
+37-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:27:19-55
+38            <meta-data
+38-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:28:13-30:49
+39                android:name="android.support.PARENT_ACTIVITY"
+39-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:29:17-63
+40                android:value=".MainActivity" />
+40-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:30:17-46
+41        </activity>
+42        <activity android:name="com.example.dogglers.HorizontalListActivity" >
+42-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:32:9-36:20
+42-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:32:19-57
+43            <meta-data
+43-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:28:13-30:49
+44                android:name="android.support.PARENT_ACTIVITY"
+44-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:29:17-63
+45                android:value=".MainActivity" />
+45-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:30:17-46
+46        </activity>
+47        <activity android:name="com.example.dogglers.GridListActivity" >
+47-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:37:9-41:20
+47-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:37:19-51
+48            <meta-data
+48-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:28:13-30:49
+49                android:name="android.support.PARENT_ACTIVITY"
+49-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:29:17-63
+50                android:value=".MainActivity" />
+50-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:30:17-46
+51        </activity>
+52        <activity
+52-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:42:9-49:20
+53            android:name="com.example.dogglers.MainActivity"
+53-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:42:19-47
+54            android:exported="true" >
+54-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:43:13-36
+55            <intent-filter>
+55-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:44:13-48:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:45:17-69
+56-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:45:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:47:17-77
+58-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:47:27-74
+59            </intent-filter>
+60        </activity>
+61        <activity
+61-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\nadia\.gradle\caches\transforms-3\7156d730581db6ab6be816663843833b\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:28:9-37:20
+62            android:name="androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity"
+62-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\nadia\.gradle\caches\transforms-3\7156d730581db6ab6be816663843833b\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:29:13-96
+63            android:exported="true"
+63-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\nadia\.gradle\caches\transforms-3\7156d730581db6ab6be816663843833b\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:30:13-36
+64            android:multiprocess="true"
+64-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\nadia\.gradle\caches\transforms-3\7156d730581db6ab6be816663843833b\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:31:13-40
+65            android:taskAffinity=""
+65-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\nadia\.gradle\caches\transforms-3\7156d730581db6ab6be816663843833b\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:32:13-36
+66            android:theme="@style/FragmentScenarioEmptyFragmentActivityTheme" >
+66-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\nadia\.gradle\caches\transforms-3\7156d730581db6ab6be816663843833b\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:33:13-78
+67            <intent-filter>
+67-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\nadia\.gradle\caches\transforms-3\7156d730581db6ab6be816663843833b\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:34:13-36:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:45:17-69
+68-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:45:25-66
+69            </intent-filter>
+70        </activity>
+71        <activity
+71-->[androidx.test:core:1.4.0] C:\Users\nadia\.gradle\caches\transforms-3\5088ca7dabc86f4e562a79d9aff85233\transformed\jetified-core-1.4.0\AndroidManifest.xml:27:9-34:20
+72            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+72-->[androidx.test:core:1.4.0] C:\Users\nadia\.gradle\caches\transforms-3\5088ca7dabc86f4e562a79d9aff85233\transformed\jetified-core-1.4.0\AndroidManifest.xml:28:13-99
+73            android:exported="true"
+73-->[androidx.test:core:1.4.0] C:\Users\nadia\.gradle\caches\transforms-3\5088ca7dabc86f4e562a79d9aff85233\transformed\jetified-core-1.4.0\AndroidManifest.xml:29:13-36
+74            android:theme="@android:style/Theme" >
+74-->[androidx.test:core:1.4.0] C:\Users\nadia\.gradle\caches\transforms-3\5088ca7dabc86f4e562a79d9aff85233\transformed\jetified-core-1.4.0\AndroidManifest.xml:30:13-49
+75            <intent-filter>
+75-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\nadia\.gradle\caches\transforms-3\7156d730581db6ab6be816663843833b\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:34:13-36:29
+76                <action android:name="android.intent.action.MAIN" />
+76-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:45:17-69
+76-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:45:25-66
+77            </intent-filter>
+78        </activity>
+79        <activity
+79-->[androidx.test:core:1.4.0] C:\Users\nadia\.gradle\caches\transforms-3\5088ca7dabc86f4e562a79d9aff85233\transformed\jetified-core-1.4.0\AndroidManifest.xml:35:9-42:20
+80            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+80-->[androidx.test:core:1.4.0] C:\Users\nadia\.gradle\caches\transforms-3\5088ca7dabc86f4e562a79d9aff85233\transformed\jetified-core-1.4.0\AndroidManifest.xml:36:13-95
+81            android:exported="true"
+81-->[androidx.test:core:1.4.0] C:\Users\nadia\.gradle\caches\transforms-3\5088ca7dabc86f4e562a79d9aff85233\transformed\jetified-core-1.4.0\AndroidManifest.xml:37:13-36
+82            android:theme="@android:style/Theme" >
+82-->[androidx.test:core:1.4.0] C:\Users\nadia\.gradle\caches\transforms-3\5088ca7dabc86f4e562a79d9aff85233\transformed\jetified-core-1.4.0\AndroidManifest.xml:38:13-49
+83            <intent-filter>
+83-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\nadia\.gradle\caches\transforms-3\7156d730581db6ab6be816663843833b\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:34:13-36:29
+84                <action android:name="android.intent.action.MAIN" />
+84-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:45:17-69
+84-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:45:25-66
+85            </intent-filter>
+86        </activity>
+87        <activity
+87-->[androidx.test:core:1.4.0] C:\Users\nadia\.gradle\caches\transforms-3\5088ca7dabc86f4e562a79d9aff85233\transformed\jetified-core-1.4.0\AndroidManifest.xml:43:9-50:20
+88            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+88-->[androidx.test:core:1.4.0] C:\Users\nadia\.gradle\caches\transforms-3\5088ca7dabc86f4e562a79d9aff85233\transformed\jetified-core-1.4.0\AndroidManifest.xml:44:13-103
+89            android:exported="true"
+89-->[androidx.test:core:1.4.0] C:\Users\nadia\.gradle\caches\transforms-3\5088ca7dabc86f4e562a79d9aff85233\transformed\jetified-core-1.4.0\AndroidManifest.xml:45:13-36
+90            android:theme="@android:style/Theme.Dialog" >
+90-->[androidx.test:core:1.4.0] C:\Users\nadia\.gradle\caches\transforms-3\5088ca7dabc86f4e562a79d9aff85233\transformed\jetified-core-1.4.0\AndroidManifest.xml:46:13-56
+91            <intent-filter>
+91-->[androidx.fragment:fragment-testing:1.4.1] C:\Users\nadia\.gradle\caches\transforms-3\7156d730581db6ab6be816663843833b\transformed\jetified-fragment-testing-1.4.1\AndroidManifest.xml:34:13-36:29
+92                <action android:name="android.intent.action.MAIN" />
+92-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:45:17-69
+92-->C:\Users\nadia\OneDrive\Desktop\Doggler-UD1-PMDM\app\src\main\AndroidManifest.xml:45:25-66
+93            </intent-filter>
+94        </activity>
+95
+96        <provider
+96-->[androidx.emoji2:emoji2:1.0.0] C:\Users\nadia\.gradle\caches\transforms-3\614e314ce2e30642c47f9901b1909680\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+97            android:name="androidx.startup.InitializationProvider"
+97-->[androidx.emoji2:emoji2:1.0.0] C:\Users\nadia\.gradle\caches\transforms-3\614e314ce2e30642c47f9901b1909680\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+98            android:authorities="com.example.dogglers.androidx-startup"
+98-->[androidx.emoji2:emoji2:1.0.0] C:\Users\nadia\.gradle\caches\transforms-3\614e314ce2e30642c47f9901b1909680\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+99            android:exported="false" >
+99-->[androidx.emoji2:emoji2:1.0.0] C:\Users\nadia\.gradle\caches\transforms-3\614e314ce2e30642c47f9901b1909680\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+100            <meta-data
+100-->[androidx.emoji2:emoji2:1.0.0] C:\Users\nadia\.gradle\caches\transforms-3\614e314ce2e30642c47f9901b1909680\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+101                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+101-->[androidx.emoji2:emoji2:1.0.0] C:\Users\nadia\.gradle\caches\transforms-3\614e314ce2e30642c47f9901b1909680\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+102                android:value="androidx.startup" />
+102-->[androidx.emoji2:emoji2:1.0.0] C:\Users\nadia\.gradle\caches\transforms-3\614e314ce2e30642c47f9901b1909680\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+103            <meta-data
+103-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\nadia\.gradle\caches\transforms-3\17695e6d574b0f0810b0bd64cdb10c88\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+104                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+104-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\nadia\.gradle\caches\transforms-3\17695e6d574b0f0810b0bd64cdb10c88\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+105                android:value="androidx.startup" />
+105-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\nadia\.gradle\caches\transforms-3\17695e6d574b0f0810b0bd64cdb10c88\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+106        </provider>
+107    </application>
+108
+109</manifest>
